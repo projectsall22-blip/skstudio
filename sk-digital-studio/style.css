@@ -52,6 +52,15 @@ img { max-width: 100%; display: block; }
   animation: omPulse 1.5s ease infinite;
   display: block; margin-bottom: 12px;
 }
+.preloader-logo-img {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 14px;
+  animation: omPulse 1.5s ease infinite;
+  filter: drop-shadow(0 4px 20px rgba(201,168,76,0.6));
+}
 .preloader-logo {
   font-family: var(--font-heading);
   font-size: 2.2rem; font-weight: 900;
