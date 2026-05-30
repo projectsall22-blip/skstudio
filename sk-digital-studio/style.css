@@ -79,7 +79,7 @@ img { max-width: 100%; display: block; }
 .preloader-fill {
   height: 100%; width: 0;
   background: linear-gradient(90deg, var(--maroon), var(--gold), var(--saffron));
-  animation: fillBar 2.2s ease forwards;
+  animation: fillBar 3.6s ease forwards;
 }
 @keyframes fillBar { to { width: 100%; } }
 @keyframes omPulse { 0%,100%{transform:scale(1);opacity:1} 50%{transform:scale(1.15);opacity:0.8} }
