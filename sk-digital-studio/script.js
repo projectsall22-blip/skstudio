@@ -2,8 +2,8 @@
 function hidePreloader() {
   document.getElementById('preloader').classList.add('hidden');
 }
-setTimeout(hidePreloader, 2800);
-window.addEventListener('load', () => setTimeout(hidePreloader, 600));
+setTimeout(hidePreloader, 4000);
+window.addEventListener('load', () => setTimeout(hidePreloader, 4000));
 
 // ===== CUSTOM CURSOR =====
 const cursor = document.querySelector('.cursor');
